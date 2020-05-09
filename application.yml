@@ -1,0 +1,24 @@
+spring:
+   profiles:
+     active: -defult
+   datasource:
+     url: jdbc:mysql://localhost:3306/hse_eqzj?useUnicode=true&characterEncoding=utf-8
+     driver-class-name: com.mysql.jdbc.Driver
+     data-password: root
+     name: root
+
+
+
+
+
+---
+spring:
+   profiles:
+         active: -dev
+  datasource:
+       url: jdbc:mysql://localhost:3306/hse_eqzj?useUnicode=true&characterEncoding=utf-8
+       driver-class-name: com.mysql.jdbc.Driver
+       data-password: root
+       name: root
+
+
