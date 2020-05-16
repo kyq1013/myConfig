@@ -16,7 +16,7 @@ spring:
    profiles:
          active: -dev
    datasource:
-         jdbc-url: jdbc:mysql://localhost:3306/hse_eqzj?useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
+         jdbc-url: jdbc:mysql://localhost:3306/hse_eqzj?useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT%2B8
          username: root
          password: root
          driver-class-name: com.mysql.cj.jdbc.Driver
